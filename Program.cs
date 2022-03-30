@@ -16,7 +16,7 @@ namespace ConsoleApp1
             double A = sh * sz * 10000;
             int num=Convert.ToInt32(Console.ReadLine());
             int flag = 0;
-            for (int n = 0; n < 2022; n++)
+            for (int n = 0; n < 7767; n++)
             {
                
               double score = A % (B + n) % B + (N + 1);
@@ -27,7 +27,7 @@ namespace ConsoleApp1
                 }
                 
             }
-            for (int n = 2022; n < 4044; n++)
+            for (int n = 2022; n < 7767*2; n++)
             {
 
                 double score = A % (B + n) % B + (N + 1);
