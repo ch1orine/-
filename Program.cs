@@ -10,9 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int B = 20061;
-            int N = 22332501;
-            double sh = 3455.67,sz=13780.30;
+            int B = 65699;
+            int N = 22332233;
+            double sh = 3266.60,sz=12263.80;
             double A = sh * sz * 10000;
             int num=Convert.ToInt32(Console.ReadLine());
             int flag = 0;
